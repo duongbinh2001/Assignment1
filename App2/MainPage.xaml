@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BtnClick" Content="An em di" Margin="88,352,0,0" VerticalAlignment="Top" Height="50" Width="150" Click="Btn_Click"/>
+        <TextBox x:Name="Email" HorizontalAlignment="Left" Margin="83,48,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="300" PlaceholderText="Email"/>
+        <TextBox x:Name="Title" HorizontalAlignment="Left" Margin="86,140,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="300" PlaceholderText="Title"/>
+        <TextBox x:Name="Content" HorizontalAlignment="Left" Margin="84,226,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="300" PlaceholderText="Content"/>
+        <Grid Grid.Column="1">
+            <TextBlock x:Name="TxtBlock" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="357" Width="550"/>
+        </Grid>
+
+
+    </Grid>
+</Page>
